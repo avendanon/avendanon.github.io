@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  font-size: 14px;
+  color: white;
+  line-height: 0.6em;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+a2 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  line-height: 0.6em;
+}
+
+a3 {
+  font-size: 14px;
+  color: white;
+  line-height: 0.6em;
+  font-family: "Open Sans", sans-serif;
+}
+
+a4 {
+  font-size: 18px;
+  color: white;
+  line-height: 0.6em;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bg {
+  background-image: url("images/mountains.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.nic {
+  padding-top: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 16px;
+  display: inherit;
+}
+
+.projects {
+  margin: 0 auto;
+  padding-bottom: 0px;
+  width: 100%;
+  border-top: 2px solid orange;
+  text-align: center;
+}
+
+.entry {
+  width: 33%;
+  float: left;
+  margin-top: 10px;
+  height: 100%;
+  padding-left: 20px;
+}
+
+figure {
+  display: block;
+  width: 100%;
+  background-color: hsla(0, 6%, 77%, 0.85);
+  margin: 0px;
+  padding: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+figure img {
+  width: 99.5%;
+  height: 80%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.bio {
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: #21618c;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 3px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  transition: transform 5.5s;
+}
+
+/* Not Used */
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+}
+
+/* Not Used */
+.social {
+  margin: 0 auto;
+  width: 100%;
+  text-align: right;
+  padding-top: 570px;
+  padding-right: 20px;
+}
+
+.entry:hover {
+  transform: scale(1.15);
+}
